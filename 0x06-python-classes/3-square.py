@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-"""A class that defines a square"
+"""A class that defines a square"""
 
-class square:
+
+class Square:
     """
-    defines a square class with private attribute size
-    checks the datatype and value
+    defines the square class with private attribute size
+    Checks the datatype and value
     """
     def __init__(self, size=0):
         if type(size) is not int:
@@ -17,4 +18,3 @@ class square:
     def area(self):
         """returns the current square area"""
         return self.__size * self.__size
-
